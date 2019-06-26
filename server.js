@@ -19,5 +19,5 @@ mongoose
   .catch(err => console.log(err));
 
 app.listen(PORT, function() {
-    console.log("Server is running on Port: " + PORT);
+    console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
