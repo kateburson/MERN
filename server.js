@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 4000;
 
 app.use(bodyParser.json());
 
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// // Serve up static assets (usually on heroku)
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
 
 const db = require("./config/keys").mongoURI;
 
